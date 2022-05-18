@@ -13,6 +13,7 @@
   padding: 0;
   margin: 0;
   box-sizing: inherit;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -64,7 +65,7 @@ header {
 }
 
 .scores li:nth-child(even) {
-  background-color: lightgray;
+  background-color: #fff;
 }
 
 .table-title {

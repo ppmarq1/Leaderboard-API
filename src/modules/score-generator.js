@@ -1,10 +1,10 @@
 const container = document.querySelector('.scores');
 
-const generateScores = (data) => {
+const generateScores = (_data) => {
   container.innerHTML = '';
 
-  data.forEach((item) => {
-    container.innerHTML += `<li>${item.name}: ${item.score}</li>`;
+  _data.forEach((item) => {
+    container.innerHTML += `<li>${item.user}: ${item.score}</li>`;
   });
 };
 

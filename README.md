@@ -23,14 +23,17 @@ Feel free to check the: [Portfolio-link](https://ppmarq1.github.io/Leaderboard/)
 - text editor (e.g. VSCode)
 - terminal/CLI
 
-### Clone the repository
+### Install
 
 Clone the repository https://github.com/ppmarq1/Leaderboard.git
 
 - npm . init -y
-- npm install
-- npm install babel-cli babel-core --save-dev
-- npm i --save-dev jest-localstorage-mock
+- npm install webpack webpack-cli --save-dev
+- npm install --save lodash
+- npx webpack
+- npm install --save-dev html-webpack-plugin
+- npm run build
+- npm start
 
 ### Deployment
 
@@ -40,7 +43,7 @@ Clone the repository https://github.com/ppmarq1/Leaderboard.git
 
 - npx stylelint "\*_/_.{css,scss}"
 - npx hint .
-- npx run test
+- npx eslint .
 
 ## Authors
 
@@ -54,15 +57,11 @@ Clone the repository https://github.com/ppmarq1/Leaderboard.git
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ppmarq1/Capstone-1-Collision/issues).
+Feel free to check the [issues page](https://github.com/ppmarq1/Leaderboard-API/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Theme Original design idea by: [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 ## 📝 License
 
