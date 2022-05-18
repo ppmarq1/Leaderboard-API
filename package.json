@@ -11,31 +11,35 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ppmarq1/Webpack.git"
+    "url": "git+https://github.com/JauJau088/my-webpack-biolerplate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ppmarq1/Webpack/issues"
+    "url": "https://github.com/JauJau088/my-webpack-biolerplate/issues"
   },
-  "homepage": "https://github.com/ppmarq1/Webpack",
+  "homepage": "https://github.com/JauJau088/my-webpack-biolerplate#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.26.0",
+    "hint": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
-    "stylelint": "^14.8.2",
-    "stylelint-config-standard": "^25.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.8.1"
   },
   "dependencies": {
-    "lodash": "^4.17.21",
-    "save": "^2.5.0"
+    "lodash": "^4.17.21"
   }
 }
