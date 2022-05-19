@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Leaderboard</title>
-<script defer src="runtime.js"></script><script defer src="main.js"></script></head>
+  <title>Starwars - Leaderboard</title>
+<script defer src="runtime.js"></script><script defer src="main.js"></script><script defer src="runtime.js"></script><script defer src="main.js"></script><script defer src="runtime.js"></script><script defer src="main.js"></script></head>
 <body>
-  <header>
-    <h1>Leaderboard</h1>
-  </header>
-  <main class="main">
-    <div class="recent-scores-container container">
-      <div class="recent table-title">
-        <h2>Recent scores</h2>
-        <button>Refresh</button>
+  <div class="main-container">
+    <header>
+      <h1>Starwars   (｡▼皿▼)   Leaderboard</h1>
+    </header>
+    <main class="main">
+      <div class="recent-scores-container container">
+        <div class="recent table-title">
+          <h2>Recent scores</h2>
+          <button id="refresh-btn" type="button">
+            <span class="material-icons-outlined icon">refresh</span>
+          </button>
+        </div>
+        <ul class="scores">
+        </ul>
       </div>
-      <ul class="scores">
-      </ul>
-    </div>
-    <div class="add-score container">
-      <h2 class="table-title">Add your score</h2>
-      <form class="form" action="#">
-        <input type="text" name="name" id="input-name" placeholder="Your name" required>
-        <input type="number" name="score" id="input-score" placeholder="Your score" required>
-        <button type="submit">Submit</button>
-      </form>
-    </div>
-  </main>
+      <div class="add-score-container container">
+        <h2 class="table-title">Add your score</h2>
+        <form class="form" action="#">
+          <input type="text" name="name" id="input-name" placeholder="Your name" required>
+          <input type="number" name="score" id="input-score" placeholder="Your score" required>
+          <button class="button" type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+  </div>
 </body>
 </html>
